@@ -128,3 +128,7 @@
     - List of files modified or created.
     - Any important decisions or findings.
 - Format the `changelog.md` using Markdown, with the latest changes at the top.
+
+## Pull Requests
+
+- Pull Request (PR) descriptions MUST be written in English.
