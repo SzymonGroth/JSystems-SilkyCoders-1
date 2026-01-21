@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026-01-21 12:51]
+- **Task**: Dodanie wymogu angielskich opisów PR do `agents.md`.
+- **Files Modified**:
+    - `agents.md`
+- **Decisions**: Zaktualizowano wytyczne dla agentów, wprowadzając zasadę sporządzania opisów Pull Requestów w języku angielskim.
+
 ## [2026-01-21 12:20]
 - **Task**: Dodanie wytycznych dotyczących strukturyzacji projektu do `agents.md`.
 - **Files Modified**:
