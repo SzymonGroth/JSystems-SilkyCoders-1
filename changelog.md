@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026-01-21 13:45]
+- **Task**: Naprawa uwag z PR #1 (initial).
+- **Files Modified**:
+    - `.gitignore`
+    - `agents.md`
+    - `frontend/index.html`
+    - `frontend/package.json`
+    - `pom.xml`
+- **Files Deleted**:
+    - `src/main/resources/static/index.html` (i artefakty w `assets/`)
+- **Decisions**:
+    - Poprawiono literówki w dokumentacji `agents.md`.
+    - Dodano `vitest` i biblioteki testowe do frontendu.
+    - Usunięto nieistniejącą ikonę `vite.svg` z `index.html`.
+    - Zmieniono `installDirectory` dla Node w `pom.xml` na root projektu (`.`), aby uniknąć kasowania przy `mvn clean`.
+    - Wykluczono katalogi `node/` oraz `src/main/resources/static/` z Git, usuwając wcześniej scommitowane artefakty.
+
 ## [2026-01-21 12:51]
 - **Task**: Dodanie wymogu angielskich opisów PR do `agents.md`.
 - **Files Modified**:

@@ -5,7 +5,7 @@
 - Each business module should contain its own controllers, services, repositories, and DTOs.
 - Cross-module dependencies should be kept to a minimum and clearly defined.
 
-## Code Fromatting
+## Code Formatting
 
 - Indentation: 4 spaces.
 - Blank Lines: Use to separate logical blocks of code.
@@ -103,7 +103,7 @@
 - Use `@WebMvcTest(ControllerClass.class)` for testing Spring MVC controllers.
 - Use `@SpringBootTest` for integration tests that require the Spring context.
 - Use `given/when/then` structure in test methods for clarity.
-- Method naming could follow snake_case or camelCaset convention for test methods (e.g., `get_user_by_id_ok`, `get_user_by_id_not_found_ko`).
+- Method naming could follow snake_case or camelCase convention for test methods (e.g., `get_user_by_id_ok`, `get_user_by_id_not_found_ko`).
 - Avoid reflection in tests.
 - Avoid business logic in tests; focus on behavior verification.
 

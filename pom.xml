@@ -79,7 +79,7 @@
 				<version>1.15.0</version>
 				<configuration>
 					<workingDirectory>frontend</workingDirectory>
-					<installDirectory>target</installDirectory>
+					<installDirectory>.</installDirectory>
 				</configuration>
 				<executions>
 					<execution>
