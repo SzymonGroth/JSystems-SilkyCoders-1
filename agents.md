@@ -132,3 +132,13 @@
 ## Pull Requests
 
 - Pull Request (PR) descriptions MUST be written in English.
+
+## Code Review Guidelines
+
+- **Commenting approach**:
+    - Comments must be added directly to specific lines of code, rather than as a single summary message.
+    - If a comment applies to the entire file, place it on the first line of the file.
+    - If a comment applies to a long block of code, place it on the first line of that block.
+- **Formatting**: Each comment must be prefixed with: `AI-ASSISTED-COMMENT:`.
+- **Handling fixes**: During a re-review, if the agent notices that a thread/comment has been correctly addressed, it must mark that thread as resolved.
+- **Tools**: All Code Review operations on Pull Requests (adding comments, approving, resolving threads) should be performed using the GitHub CLI (`gh`).
