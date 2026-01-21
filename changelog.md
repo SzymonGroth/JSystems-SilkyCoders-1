@@ -1,5 +1,14 @@
 # Changelog
 
+## [2026-01-21 14:19]
+- **Task**: Dodanie sekcji "Code Review Guidelines" do `agents.md`.
+- **Files Modified**:
+    - `agents.md`
+- **Decisions**: 
+    - Wprowadzono nowe wytyczne dla agentów AI dotyczące przeprowadzania Code Review na Pull Requestach.
+    - Wytyczne obejmują sposób komentowania, prefixowanie komentarzy, obsługę poprawek oraz wymagane narzędzia (GitHub CLI).
+    - Dokumentację sporządzono w języku angielskim, aby zachować spójność z resztą pliku `agents.md`.
+
 ## [2026-01-21 13:45]
 - **Task**: Naprawa uwag z PR #1 (initial).
 - **Files Modified**:
